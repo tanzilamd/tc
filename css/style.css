@@ -7,6 +7,16 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+body .donate {
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+}
+
+body .donate img {
+  width: 70px;
+}
+
 body .cover {
   margin-top: 20px;
 }
