@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    
+    // navbar
+    // .navbar{
+    //     background-color: transparent !important;
+    //     .nav_logo{
+    //         width: 50px;
+    //     }
+    //     .navbar-nav {
+    //         .btn {
+    //             color: white;
+    //             background-color: #7545AE;
+    //             border: 0;
+    //             padding-left: 15px;
+    //             padding-right: 15px;
+    //             font-weight: bold;
+    //         }
+    //         .btn:hover {
+    //             color: white !important;
+    //         }
+    //     }
+    // }
+
+    // // about
+    // .about {
+    //     margin-top: 50px;
+    //     .about-text {
+    //         text-align: justify;
+    //     }
+    // }
+    .cover {
+        margin-top: 20px;
+        .logo {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            img {
+                
+                width: 150px;
+            }
+        }
+    }
+    .about {
+        margin-top: 20px;
+        font-size: 20px;
+        text-align: justify;
+    }
+    .features {
+        margin-top: 50px;
+        a {
+            display: inline-block;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            padding: 40px 0;
+            border: 1px solid #7545AE;
+            color: #7545AE;
+            span {
+                font-size: 25px;
+                font-weight: bold;
+                text-align: center;
+            }
+        }
+        a:hover {
+            background-color: #7545AE;
+            color: white;
+        }
+    }
+    footer {
+        padding: 20px 0;
+        margin-top: 30px;
+        background-color: #7545AE;
+        color: white;
+        .designer {
+            text-align: center;
+            p {
+                margin: 0;
+            }
+        }
+    }
+}
