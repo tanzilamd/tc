@@ -51,30 +51,35 @@ body .features {
   margin-top: 50px;
 }
 
-body .features a {
-  display: inline-block;
-  text-decoration: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+body .features .features-box {
+  width: 100%;
   padding: 40px 0;
   border: 1px solid #7545AE;
   color: #7545AE;
   margin-top: 10px;
-}
-
-body .features a span {
   font-size: 25px;
   font-weight: bold;
   text-align: center;
+  background-color: transparent;
+  -webkit-transition: background-color .3s ease-in-out;
+  transition: background-color .3s ease-in-out;
 }
 
-body .features a:hover {
+body .features .features-box:hover {
   background-color: #7545AE;
   color: white;
+}
+
+body .features .close-btn {
+  background-color: #8C52C5;
+}
+
+body .features .close {
+  background-color: #8C52C5 !important;
+  color: white;
+  border: 0;
+  font-weight: bold;
+  padding: 5px 10px;
 }
 
 body footer {

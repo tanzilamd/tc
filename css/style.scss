@@ -63,24 +63,31 @@ body {
     }
     .features {
         margin-top: 50px;
-        a {
-            display: inline-block;
-            text-decoration: none;
-            display: flex;
-            justify-content: center;
+        .features-box {
+            width: 100%;
             padding: 40px 0;
             border: 1px solid #7545AE;
             color: #7545AE;
             margin-top: 10px;
-            span {
-                font-size: 25px;
-                font-weight: bold;
-                text-align: center;
-            }
+            font-size: 25px;
+            font-weight: bold;
+            text-align: center;
+            background-color: transparent;
+            transition: background-color .3s ease-in-out;
         }
-        a:hover {
+        .features-box:hover {
             background-color: #7545AE;
             color: white;
+        }
+        .close-btn {
+            background-color: #8C52C5;
+        }
+        .close {
+            background-color: #8C52C5 !important;
+            color: white;
+            border: 0;
+            font-weight: bold;
+            padding: 5px 10px;
         }
     }
     footer {
