@@ -16,6 +16,17 @@ body {
 
             li {
                 margin-left: 10px;
+
+                a {
+                    border: 2px solid #8A51C3;
+                    padding: 5px 10px;
+                    color: black !important;
+
+                    &:hover {
+                        background-color: #8A51C3;
+                        color: white !important;
+                    }
+                }
             }
         }
     }

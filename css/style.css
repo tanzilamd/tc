@@ -27,6 +27,17 @@ body .navbar .navbar-nav li {
   margin-left: 10px;
 }
 
+body .navbar .navbar-nav li a {
+  border: 2px solid #8A51C3;
+  padding: 5px 10px;
+  color: black !important;
+}
+
+body .navbar .navbar-nav li a:hover {
+  background-color: #8A51C3;
+  color: white !important;
+}
+
 body .donate {
   position: fixed;
   right: 5px;
