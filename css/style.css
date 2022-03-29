@@ -47,6 +47,11 @@ body .about {
   text-align: justify;
 }
 
+body .about .bg-light {
+  padding: 15px;
+  border-radius: 5px;
+}
+
 body .features {
   margin-top: 50px;
 }
