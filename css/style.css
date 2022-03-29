@@ -7,6 +7,26 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+body .navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+body .navbar .navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .navbar .navbar-nav li {
+  margin-left: 10px;
+}
+
 body .donate {
   position: fixed;
   right: 5px;

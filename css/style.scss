@@ -6,34 +6,19 @@
 body {
     font-family: 'Inter', sans-serif;
     
-    // navbar
-    // .navbar{
-    //     background-color: transparent !important;
-    //     .nav_logo{
-    //         width: 50px;
-    //     }
-    //     .navbar-nav {
-    //         .btn {
-    //             color: white;
-    //             background-color: #7545AE;
-    //             border: 0;
-    //             padding-left: 15px;
-    //             padding-right: 15px;
-    //             font-weight: bold;
-    //         }
-    //         .btn:hover {
-    //             color: white !important;
-    //         }
-    //     }
-    // }
+    .navbar {
+        position: sticky;
+        top:0;
+        
+        .navbar-nav {
+            display: flex;
+            flex-direction: row;
 
-    // // about
-    // .about {
-    //     margin-top: 50px;
-    //     .about-text {
-    //         text-align: justify;
-    //     }
-    // }
+            li {
+                margin-left: 10px;
+            }
+        }
+    }
     .donate {
         position: fixed;
         right: 5px;
